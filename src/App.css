@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.controls input {
+  width: 60px;
+  padding: 5px;
+}
+
+.controls button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.hotel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floor {
+  display: flex;
+  align-items: center;
+}
+
+.floor-label {
+  width: 70px;
+  font-weight: bold;
+}
+
+.rooms {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.room {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.room.available {
+  background-color: #d4edda;
+}
+
+.room.occupied {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.room.booked {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.summary {
+  margin-top: 20px;
+  text-align: center;
+}
